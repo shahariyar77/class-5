@@ -1,0 +1,88 @@
+/*
+Basic Information:
+--------------------
+
+Project Name   	:	NGH school Template
+Author       	: 	NGH school
+Our Site 		: 	https://youthenlight.com
+Description 	: 	This is html5 School template
+Developed By 	: 	Mahbubul Haq
+Phone           :   01515672069
+
+
+-----------------------------------------------------------------------------------*/
+/*================== 1. Start Template Common CSS ===============*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+	color: #a9a9a9;
+	font-size: 15px;
+	line-height: 1.7;
+    
+}
+.section-bg-1{
+	position: relative;
+}
+
+.section-bg-1::after{
+	background-image: url(img/videobg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	height: 100%;
+	width: 47%;
+	min-height: 450px;
+	
+}
+.section-title{
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.section-title h2{
+	color: #333;
+}
+.section-title span{
+	color: #18b5fd;	
+}
+
+.styled-faq.panal-default > .panal-heading {
+	border: none;
+	background: none;
+}
+.styled-faq.panel.panel-collapse.panel-body{
+	border: none;
+}
+.styled-faq.panel-group.panel{
+	border-radius: 0;
+	box-shadow: 0 0 0 ;
+	margin-bottom: 10px;
+}
+.sstyled-faq.panel.panel-heading  h4 a{
+	display: block;
+	padding: 15px;
+}
+.fa, .fab, .fal, .far, .fas {
+    
+    float: right;
+    font-size: 115%;
+    line-height: 15px;
+}
+.styled-faq {
+	min-height: 430px;
+	margin-top: 31px;
+}
+
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
